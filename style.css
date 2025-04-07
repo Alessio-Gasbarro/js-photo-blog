@@ -1,4 +1,21 @@
-*{
+header{
+    background-image: url(./img/wall.png);
+    font-family: 'Edu TAS Beginner', cursive;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-image: url(./img/cork.png)
+}
+
+#pin{
+    position:absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,3 +30,32 @@ header{
     font-size: 40px;
     font-family: 'Edu Tas Beginner';
 }
+
+body{
+    background-image: url(./img/cork.png);
+}
+
+.full-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo-box{
+    background-color: brown;
+}
+
+.box-picture{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+}
+
+.col-30{
+    width: 30%;
+}*/
