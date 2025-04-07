@@ -16,3 +16,10 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.row p, .row h5{
+    font-family: 'Edu Tas Beginner', cursive;
+    font-optical-sizing: auto;
+    padding-top: 10px;
+    font-size: 25px;
+}
