@@ -1,3 +1,4 @@
+//AGGIUNTA API ASSETS
 let pictureCont = document.getElementById("api-cont");
 
 axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) =>{
@@ -18,3 +19,5 @@ axios.get('https://lanciweb.github.io/demo/api/pictures/').then((resp) =>{
     pictureCont.innerHTML += fotoCard;
     }
 });
+
+
